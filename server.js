@@ -28,7 +28,7 @@ var server = http.createServer(function (request, response) {
     response.setHeader('Content-Type', 'text/html;charset=utf-8')
     response.write(`
       <link rel="stylesheet" href="./style.css">
-      <h1>哟吼吼吼</h1>
+      <h1>哟吼吼吼123</h1>
     `)
     response.end()
   } else if (path === '/style.css') {
